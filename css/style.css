@@ -16,6 +16,7 @@ body {
 	background-color: #94C9F5;
 }
 
+
 /********************container****************************/
 #container {
 	width: 1000px;
@@ -91,4 +92,46 @@ ul.tabs li {
 	list-style: none;
 	float: left;
 	position: relative;
+}
+
+/**************middle container*******************/
+
+#middle{
+	height:auto;
+	padding:0 35px 0 34px;
+	margin:0px;
+}
+
+#slide_holder{
+	position:relative;
+	background-repeat:no-repeat;
+	width:928px;
+	height:277px;
+	overflow:hidden;
+	text-align:left;
+	z-index: 100;
+}
+#slide_holder_inner{
+	width:928px;
+	width:277px;
+	left:0px;
+	overflow:hidden;
+	position:absolute;
+	top:0px;
+	z-index: 200;
+}
+#slide_holder_inner div{
+	position:absolute;
+}
+#slide_holder_inner img{
+	border:0px;
+}
+#row_of_slides{
+	position:absolute;
+	top:0;
+}
+
+table{
+	width: 100%;
+	border-spacing:0px;
 }
